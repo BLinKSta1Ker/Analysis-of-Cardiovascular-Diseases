@@ -1,15 +1,31 @@
 # Analysis-of-Cardiovascular-Diseases
-###  Python Project
-<br>The dataset contains 308,854 rows and 19 columns, with a mix of categorical and numerical data. Here’s a brief overview of the columns:
+##  Python Project
+<br>
+This project focuses on the analysis of a cardiovascular disease (CVD) dataset, which includes information about general health, physical measurements (e.g., BMI, height, weight), health conditions (heart disease, diabetes, arthritis), and lifestyle factors (diet, alcohol consumption, smoking history).
 
-- General_Health: The perceived general health status (e.g., "Poor", "Very Good").
-- Checkup: Last time the individual had a checkup.
-- Exercise: Whether the individual exercises or not.
-- Heart_Disease, Skin_Cancer, Other_Cancer: Presence of specific health conditions.
-- Depression, Diabetes, Arthritis: Whether the individual has these health conditions.
-- Sex: Gender of the individual.
-- Age_Category: Age group (e.g., "70-74").
-- Height_(cm), Weight_(kg), BMI: Physical measurements.
-- Smoking_History: Whether the individual has a history of smoking.
-- Alcohol_Consumption: Average alcohol consumption.
-- Fruit_Consumption, Green_Vegetables_Consumption, FriedPotato_Consumption: Consumption of different food types.
+The aim of the project is to uncover patterns and correlations between health conditions and lifestyle choices, and provide visualizations to better understand the relationship between different variables.
+
+### Dataset
+The dataset used in this project consists of 308,854 records and 19 columns, including:
+
+- General health status
+- History of checkups, exercise, and smoking
+- Presence of specific diseases (heart disease, diabetes, etc.)
+- Demographics (age, gender)
+- Lifestyle factors (diet, alcohol consumption)
+- Physical measurements (BMI, height, weight)
+
+### Libraries Used
+- NumPy
+- Pandas
+- Seaborn
+- Matplotlib
+
+### Analysis Outline
+The notebook provides the following analyses:
+
+- General Health Distribution: A bar chart displaying the distribution of general health status.
+- Correlation of Health Conditions: A heatmap of correlations between various health conditions (e.g., heart disease, diabetes).
+- Age and Heart Disease Analysis: A visualization of heart disease prevalence across different age categories.
+- BMI and Health: Boxplots showing BMI distributions across heart disease and diabetes status.
+- Lifestyle Factors and Heart Disease: Boxplots analyzing the relationship between lifestyle factors (e.g., alcohol, diet) and heart disease.
