@@ -1,5 +1,5 @@
 # Analysis-of-Cardiovascular-Diseases
-### This project has been created using Python and its libraries: NumPy, Pandas, matplotlib, Seaborn
+###  Python Project
 <br>The dataset contains 308,854 rows and 19 columns, with a mix of categorical and numerical data. Here’s a brief overview of the columns:
 
 - General_Health: The perceived general health status (e.g., "Poor", "Very Good").
